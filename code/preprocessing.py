@@ -39,3 +39,4 @@ def preprocess(movies):
     return new_df
 
 new_df = preprocess(movies)
+new_df.to_csv(r"../data/preprocessed_data", encoding='utf-8')

@@ -3,3 +3,11 @@ myenv/
 
 # Python
 __pycache__
+
+#pkl
+*.pkl
+
+#csv
+*.csv
+
+**/preprocessed_data
