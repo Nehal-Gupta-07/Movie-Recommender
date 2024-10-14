@@ -35,6 +35,7 @@ def preprocess(movies):
     new_df['tags'] = new_df['tags'].apply(lambda x:x.lower())
 
     new_df['tags'] = new_df['tags'].apply(stem)
+
     return new_df
 
 new_df = preprocess(movies)

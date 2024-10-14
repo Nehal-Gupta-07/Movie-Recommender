@@ -18,4 +18,5 @@ def recommend(movie):
     
     for i in movies_list:
         recommended_movies.append(new_df.iloc[i[0]].title)
+    
     return recommended_movies
